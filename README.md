@@ -1,3 +1,5 @@
-# Tienda_Backend
+# Carrito de Compras en GO
+## Redes 2
+### Aplicación de Comunicaciones en Red
 
-Desarrollo de API para tienda de la aplicacion en Ionic
+Práctica 2, Desarrollo de un carrito de compras en Go
