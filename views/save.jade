@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	.main
+		form(id="sa" action="", method="POST" )
+			h1 Guarda un nuevo producto
+			input(type="text" name="n" placeholder = "Nombre")
+			input(type="text" name="p" placeholder="Precio")			
+			input(type="text" name="s" placeholder="Stock")
+			input(type="file" name="" id="files")
+			output#list
+			input(type="hidden" name="f" id="res")
+			input.save(type="submit" value="Guardar")
+	script(src="/javascripts/jquery.min.js") 
+	script(src="/javascripts/p.js")

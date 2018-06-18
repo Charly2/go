@@ -1,0 +1,187 @@
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #F7F7F7;
+  height: 100vh;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+}
+form{
+	width: 400px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid #2A3F54;
+	padding: 25px;
+	background: white;
+}
+input{
+	width: 100%;
+	line-height: 2;
+	height: 30px;
+	padding-left: 10px;
+	margin-top: 2em;
+}
+form h1{
+	color: #2A3F54;
+}
+
+.save{
+	background: #169F85;
+	color: white;
+	border: 0;
+}
+.save:hover{
+	cursor: pointer;
+}
+
+.imag{
+	width: 70px;
+	height: 70px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+.main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+._app{
+	width: 100%;
+}
+._app h1{
+	margin:0;
+}
+.app{
+	width: 80%;
+}
+.app h1{
+	color: #2A3F54;
+	margin: 0;
+}
+.car{
+	width: 20%;
+	background: #2A3F54;
+}
+
+.car h1{
+	color: white;
+}
+
+.car button{
+	display: block;
+	width: 100%;
+	line-height: 2;
+	background: #169F85;
+	color: white;
+	border: 0;
+	font-weight: bold;
+	width: 80%;
+	margin: auto;
+}
+
+#carBody{
+	width: 80%;
+	background: #F7F7F7;
+	margin: auto;
+
+}
+
+#carBody p{
+	color: #2A3F54;
+	padding: 10px 5px;
+	margin-top: 1px solid #169F85;
+}
+
+.head{
+	background: white;
+	margin: 0;
+	padding: 15px 0;
+	border-bottom: 2px solid #2A3F54;
+}
+
+.my-new-list{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 10px auto;
+}
+
+.my-new-list li{
+	
+	padding: 15px 0 0 0;
+	margin: 5px 5px;
+	color: #2A3F54;
+	min-width: 160px;
+	text-align: center;
+	background: white;
+}
+
+.my-new-list li button{
+	display: block;
+	width: 100%;
+	background: #2A3F54;
+	border:0;
+	color: white;
+	line-height: 2;
+}
+.my-new-list li button:hover{
+	cursor: pointer;
+}
+
+#list img{
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+#list {
+	width: 100%;
+    padding-top: 2em;
+}
+
+
+
+.body{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 15px;
+	font-size: 1.1em;
+
+}
+
+ul{
+	color: #2A3F54;
+}
+li{
+	color: #2A3F54;
+	
+}
+.carrito{
+	min-width: 200px;
+	background: white;
+	margin:15px 15px ;
+}
+
+.carrito h3{
+	text-align: center;
+	color: #2A3F54;
+
+}
