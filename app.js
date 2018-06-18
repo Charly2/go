@@ -61,7 +61,7 @@ app.get('/cars', function(req, res, next) {
 app.get('/carsData', function(req, res, next) {
   
   productoModel.gellAllCar(function (error,data) {
-            res.io.emit("getAlls", );
+            res.io.emit("getAlls",data );
             console.log(data[0]);
             res.status(202).json(data);
         });
